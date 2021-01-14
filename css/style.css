@@ -1,0 +1,118 @@
+
+/*color secundario: #EBF7E8, acenture: E7FF8F*/
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(31, 29, 29);
+  }
+  
+body {
+      margin: 15px;
+      padding: 5px;
+      background-color: white;
+      width: auto;
+    }
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-gato {
+  height: 125px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 60px;
+  color: rgb(240, 160, 41);
+  font-family: 'Roboto Slab', serif;
+  margin: 0px;
+  padding: 8px;
+}
+
+.presentacion {
+  font-size: 20px;
+  margin: 0px;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.presentacion1 {
+  font-size: 25px;
+  margin: 0px;
+  padding-top: 25px;
+  letter-spacing: 1px;
+  color: rgb(240, 160, 41);
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.explicacion {
+  font-size: 17px ;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.contenedor1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logos {
+  height: 35px;
+  padding: 35px;
+}
+
+footer {
+  background-color: rgb(240, 160, 41); ;
+}
+
+.contact {
+  font-family: 'Roboto Slab', serif;
+  color: rgb(31, 29, 29); 
+  font-weight: bold;
+  margin: 0px;
+  padding-top: 10px;
+  
+}
+
+.contenedor2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo1 {
+  height: 35px;
+  padding-top: 5px;
+
+}
+
+
