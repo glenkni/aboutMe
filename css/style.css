@@ -31,10 +31,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .titulo {
-  font-size: 60px;
+  font-size: 5vw;
   color: rgb(240, 160, 41);
   font-family: 'Roboto Slab', serif;
   margin: 0px;
@@ -42,14 +43,15 @@ body {
 }
 
 .presentacion {
-  font-size: 20px;
+  font-size: 0,15vw;
   margin: 0px;
   padding-bottom: 15px;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .presentacion1 {
-  font-size: 25px;
+  font-size: 0,40vw;
   margin: 0px;
   padding-top: 25px;
   letter-spacing: 1px;
@@ -59,7 +61,7 @@ body {
 }
 
 .explicacion {
-  font-size: 17px ;
+  font-size: 0,10vw ;
   text-align: center;
   padding-left: 120px;
   padding-right: 120px;
@@ -76,17 +78,33 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .skills {
   padding: 5px;
-  font-size: 20px;
+  font-size: 0,15vw;
   font-weight: bold;
 }
 
 .logos {
   height: 35px;
-  padding: 35px;
+  padding-top: 10px;
+  padding-right: 7px;
+  padding-left: 7px;
+
+}
+
+a:hover .logos {
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+a:hover .logo {
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+a {
+  overflow:hidden;
 }
 
 footer {
@@ -96,9 +114,9 @@ footer {
 .contact {
   font-family: 'Roboto Slab', serif;
   color: rgb(31, 29, 29); 
-  font-weight: bold;
+  font-weight: bolder;
   margin: 0px;
-  padding-top: 10px;
+  padding-top: 17px;
   
 }
 
@@ -114,5 +132,35 @@ footer {
   padding-top: 5px;
 
 }
+
+.created {
+  text-align: center;
+  padding-bottom: 5px;
+  text-shadow: rgb(48, 45, 45);
+  font-weight: bold;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 
 
