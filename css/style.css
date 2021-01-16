@@ -63,8 +63,10 @@ body {
 .explicacion {
   font-size: 0,10vw ;
   text-align: center;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 170px;
+  padding-right: 170px;
+  margin-left: 140px;
+  margin-right: 140px;
   margin-bottom: 25px;
   margin-top: 25px;
   font-weight: 300;
@@ -128,16 +130,4 @@ footer {
   height: 35px;
   padding-top: 5px;
 
-}
-
-.created {
-  text-align: center;
-  padding-bottom: 5px;
-  text-shadow: rgb(48, 45, 45);
-  font-weight: bold;
-};
-
-.svg1 {
-  margin: 0px !important;
-  padding: 0px !important;
 }
