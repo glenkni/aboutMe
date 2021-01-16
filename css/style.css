@@ -45,7 +45,7 @@ body {
 .presentacion {
   font-size: 0,15vw;
   margin: 0px;
-  padding-bottom: 15px;
+  margin-bottom: 25px;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -61,11 +61,11 @@ body {
 }
 
 .explicacion {
-  font-size: 0,10vw ;
+  font-size: 0,15vw ;
   text-align: center;
   font-weight: 300;
   letter-spacing: 1px;
-  margin: 7px;
+  margin-top: 7px;
 }
 
 .contenedor1 {
